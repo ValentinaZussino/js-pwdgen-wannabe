@@ -7,6 +7,6 @@
 const nomeUtente = prompt('Scrivi il tuo nome');
 const cognomeUtente = prompt('Scrivi il tuo cognome');
 const coloreUtente = prompt('Scrivi il tuo colore preferito');
-const etaUtente = prompt('Scrivi la tua età');
+const etaUtente = prompt('Scrivi la tua età in numero');
 const yourNewPsw = document.getElementById('psw-generated');
 yourNewPsw.innerHTML = nomeUtente+cognomeUtente+coloreUtente+etaUtente;
